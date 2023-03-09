@@ -27,7 +27,7 @@ public class WebScraper {
 	String result="2";
 	int c=0;
 	List<Data> list = new ArrayList<>();
-	for(Element row: document.select("div.sc-d3821a9d-0.bqyBvy tr")) {
+	for(Element row: document.select("div.sc-5017b6f2-0 tr")) {
 		 c++;
 		if(c==1) {
 			 continue;
